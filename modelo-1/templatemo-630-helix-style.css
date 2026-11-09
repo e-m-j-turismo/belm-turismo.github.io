@@ -987,7 +987,7 @@ input[type=range]:focus-visible {
 }
 
 /* ---------- responsive ---------- */
-@media (max-width:900px) {
+@media (max-width:480px) {
 
     /* fixed + mix-blend-mode repaints the whole layer on every scroll frame on mobile */
     body::before,
@@ -1144,7 +1144,7 @@ body::after {
   body::before, .brand i, .whatsapp-float, .wa-pulse { animation:none !important; }
 }
 
-/* Apresentação EMJ Turismo e logotipo ampliado */
+/* Apresentação BELM Turismo e logotipo ampliado */
 :root { --bar: 104px; }
 .brand-logo { display:block; width:178px; height:88px; object-fit:contain; mix-blend-mode:screen; filter:drop-shadow(0 0 8px #76ff68) drop-shadow(0 0 22px #29ff8b); }
 .mascot-intro { position:relative; z-index:2; width:min(980px,calc(100% - 36px)); margin:22px auto 0; padding:26px clamp(20px,4vw,46px) 30px; text-align:center; border:1px solid rgba(105,255,220,.25); border-radius:24px; background:linear-gradient(135deg,rgba(4,55,64,.86),rgba(3,28,48,.9)); box-shadow:0 22px 60px rgba(0,0,0,.24),inset 0 0 34px rgba(0,255,180,.05); }
@@ -1275,19 +1275,19 @@ body::after {
 .plate { top: 46%; }
 @media(max-width:900px){ .stage { height: 44vh; min-height: 280px; } .plate { top: 45%; } }
 
-/* Ajuste final do vídeo: compacto e com neon verde EMJ */
+/* Ajuste final do vídeo: compacto e com neon verde BELM */
 .mascot-side { padding: 6px; }
 .mascot-side-video, .mascot-video-crop { width: 150px; max-width: 150px; margin: 0 auto; border: 2px solid #73ff75; border-radius: 12px; box-shadow: 0 0 0 1px rgba(115,255,117,.75), 0 0 10px rgba(41,255,139,.95), 0 0 24px rgba(41,255,139,.58), inset 0 0 16px rgba(41,255,139,.22); }
 .mascot-video-crop video { width: 100%; max-width: 150px; display: block; filter: saturate(1.16) contrast(1.06) drop-shadow(0 0 6px rgba(115,255,117,.36)); }
 @media(max-width:900px){ .mascot-side { max-width: 180px; } .mascot-side-video, .mascot-video-crop, .mascot-video-crop video { width: 170px; max-width: 170px; } }
 @media(max-width:560px){ .mascot-side { max-width: 160px; } .mascot-side-video, .mascot-video-crop, .mascot-video-crop video { width: 150px; max-width: 150px; } }
 
-/* Neon verde inspirado no logotipo EMJ */
+/* Neon verde inspirado no logotipo BELM */
 .mascot-video-crop { border:2px solid #73ff75; border-radius:14px; box-shadow:0 0 0 1px rgba(115,255,117,.7), 0 0 12px rgba(41,255,139,.95), 0 0 32px rgba(41,255,139,.62), inset 0 0 22px rgba(41,255,139,.22); }
 .mascot-video-crop::before { content:""; position:absolute; inset:0; z-index:2; pointer-events:none; border-radius:12px; box-shadow:inset 0 0 18px rgba(115,255,117,.35); }
 .mascot-video-crop video { filter:saturate(1.12) contrast(1.04); }
 
-/* EMJ Turismo: layout adaptativo e video sem sobreposicoes */
+/* BELM Turismo: layout adaptativo e video sem sobreposicoes */
 *,*::before,*::after{box-sizing:border-box}
 html{overflow-x:hidden}body{min-width:0;overflow-x:hidden}
 img,video,iframe{max-width:100%}
@@ -1301,7 +1301,7 @@ img,video,iframe{max-width:100%}
 @media(max-width:600px){.wrap{max-width:100%}.hero-showcase{gap:14px}.mascot-side{max-width:240px}.mascot-side-video,.mascot-video-crop{max-width:240px}.stage{height:clamp(270px,47vh,420px)}.pix-box img{max-width:100%;height:auto}.fare-grid,.form-row{grid-template-columns:minmax(0,1fr)}}
 @media(min-width:1600px){.hero-showcase{grid-template-columns:minmax(0,1fr) 330px}.mascot-side,.mascot-side-video,.mascot-video-crop{max-width:330px}}
 
-/* EMJ Turismo — apresentação compacta e elegante do mascote */
+/* BELM Turismo — apresentação compacta e elegante do mascote */
 .hero-showcase { grid-template-columns: minmax(0, 1fr) 210px !important; align-items:center; gap:clamp(12px,2vw,26px); }
 .mascot-side { width:100% !important; max-width:210px !important; justify-self:center; margin-inline:auto !important; }
 .mascot-side-video,.mascot-video-crop { box-sizing:border-box; width:100% !important; max-width:210px !important; aspect-ratio:9/16 !important; height:auto !important; border:1px solid rgba(140,255,172,.6) !important; border-radius:18px !important; overflow:hidden; background:#071d25; box-shadow:0 10px 30px rgba(0,0,0,.3),0 0 15px rgba(51,225,110,.2) !important; }
@@ -1311,7 +1311,7 @@ img,video,iframe{max-width:100%}
 @media(max-width:560px) { .mascot-side { max-width:165px !important; } .mascot-side-video,.mascot-video-crop { max-width:165px !important; border-radius:14px !important; } }
 @media(min-width:1600px) { .hero-showcase { grid-template-columns:minmax(0,1fr) 235px !important; } .mascot-side,.mascot-side-video,.mascot-video-crop { max-width:235px !important; } }
 
-/* EMJ Turismo — borda neon verde luminosa, igual ao emblema */
+/* BELM Turismo — borda neon verde luminosa, igual ao emblema */
 .mascot-side-clean { overflow:visible !important; background:transparent !important; border:0 !important; box-shadow:none !important; padding:12px !important; }
 .mascot-side-video.mascot-video-crop {
  position:relative; isolation:isolate; overflow:hidden;
@@ -1326,7 +1326,7 @@ img,video,iframe{max-width:100%}
  @keyframes emjNeonGlow { from {box-shadow:0 0 0 1px #eaffdc,0 0 8px 2px rgba(125,255,0,.85),0 0 20px 4px rgba(57,255,0,.58),0 0 38px 7px rgba(31,231,25,.2),inset 0 0 12px rgba(111,255,25,.3)} to {box-shadow:0 0 0 1px #f2ffe9,0 0 13px 3px rgba(145,255,0,1),0 0 30px 7px rgba(57,255,0,.85),0 0 54px 11px rgba(31,231,25,.34),inset 0 0 18px rgba(111,255,25,.45)} }
 }
 
-/* EMJ 2026: correção para Android/iPhone — galeria sempre visível */
+/* BELM 2026: correção para Android/iPhone — galeria sempre visível */
 @media (max-width: 900px) {
   .stage-shell { padding-top: calc(var(--bar) + 12px) !important; min-height:0 !important; }
   .hero-showcase { display:flex !important; flex-direction:column !important; align-items:stretch !important; padding-top:0 !important; width:100% !important; }
@@ -1346,7 +1346,7 @@ img,video,iframe{max-width:100%}
   .mascot-side-video.mascot-video-crop { max-width:165px !important; }
 }
 
-/* EMJ - correção de visibilidade e rolagem em dispositivos móveis */
+/* BELM - correção de visibilidade e rolagem em dispositivos móveis */
 html,body {overflow-y:auto !important; height:auto !important; min-height:100% !important; scroll-behavior:smooth;}
 body {overscroll-behavior-y:auto;}
 .rv, .rv.in {opacity:1 !important; visibility:visible !important; transform:none !important;}
@@ -1364,7 +1364,7 @@ body {overscroll-behavior-y:auto;}
  .sales-catalog *, .payment-section *, .sheet * {max-width:100%;}
 }
 
-/* EMJ Turismo: identidade azul e verde mesclado */
+/* BELM Turismo: identidade azul e verde mesclado */
 html,body{background:radial-gradient(ellipse at 18% 16%,rgba(22,190,173,.27),transparent 48%),radial-gradient(ellipse at 80% 82%,rgba(22,118,215,.34),transparent 50%),linear-gradient(135deg,#062c51 0%,#075c70 50%,#07533d 100%)!important;background-attachment:fixed!important;}
 body::before{background:transparent!important;pointer-events:none!important;}
 header, .site-header, .topbar{background-color:rgba(4,54,75,.78)!important;}
