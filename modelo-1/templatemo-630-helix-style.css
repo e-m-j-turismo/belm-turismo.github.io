@@ -620,9 +620,9 @@ body.lock .fab {
 
 .panel {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 71;
+    right: 25px;
+    bottom: 25px;
+    z-index: 9999;
     width: min(308px, calc(100vw - 28px));
     padding: 1.15rem 1.15rem .95rem;
     border-radius: 8px;
